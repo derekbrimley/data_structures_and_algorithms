@@ -111,7 +111,3 @@ def memcpy(dest, source, size):
     for index, value in enumerate(source):
         dest[index] = value
     return dest
-
-def reverse_enum(list):
-    for index in reversed(range(len(list))):
-        yield index, list[index]
