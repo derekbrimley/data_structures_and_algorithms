@@ -20,7 +20,7 @@
 16:SET,12,M
 Error: 12 is not within the bounds of the current array.
 17:DEBUG,,
-11 of 15 >>> a, e, r, o, S, o, d, u, s, a, u, None, None, None, None
+11 of 15 >>> a, e, r, o, S, o, d, u, s, a,  u, None, None, None, None
 18:GET,8,
 s
 19:GET,11,

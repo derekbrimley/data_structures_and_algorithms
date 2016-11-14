@@ -1,3 +1,43 @@
+#class ArrayMethod(object):
+#    def __init__(self):
+#        self.linked_list = LinkedList()
+#        
+#    def create(self, *args):
+#        self.linked_list = LinkedList()
+#        print('create')
+#        
+#    def debug(self, *args):
+#        self.linked_list.debug_print()
+#        
+#    def add(self, *args):
+#        print(args)
+#        self.linked_list.add(args[0])
+#        print(self.linked_list)
+#        
+#    def insert(self, *args):
+#        print("insert")
+#        
+#    def set(self, *args):
+#        print("set")
+#    
+#    def get(self, *args):
+#        print("get")
+#        
+#    def delete(self, *args):
+#        print("delete")
+#        
+#    def swap(self, **args):
+#        print("swap")
+#        
+#with open('data_example.csv') as f:
+#    for line in f:
+#        line = line.rstrip('\n')
+#        cmd = line.split(',')
+#        args = (cmd[1], cmd[2])
+#        a = ArrayMethod()
+#        method = getattr(a, cmd[0].lower())
+#        method(*args)
+
 class Array(object):
     '''
     An array implementation that holds arbitrary objects.
@@ -14,7 +54,6 @@ class Array(object):
         '''Prints a representation of the entire allocated space, including unused spots.'''
         print("{} of {} >>> {}".format(self.number, self.size, ', '.join([str(x) for x in self.array])))
         
-        
     def _check_bounds(self, index):
         '''Ensures the index is within the bounds of the array: 0 <= index <= size.'''
         if 0 <= index + 1 <= self.number:
@@ -30,7 +69,7 @@ class Array(object):
         if self.number == self.size:
             self.size += self.chunk_size
             new_array = alloc(self.size)
-            self.array =    memcpy(new_array, self.array, self.size)
+            self.array = memcpy(new_array, self.array, self.size)
         
     def _check_decrease(self):
         '''

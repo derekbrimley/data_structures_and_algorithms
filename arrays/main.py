@@ -1,7 +1,7 @@
 from array_api import Array
 import csv
 
-with open('data.csv', 'rb') as csv_file:
+with open('data_example.csv', 'rb') as csv_file:
     reader = csv.reader(csv_file)
     i = 0
     for row in reader:

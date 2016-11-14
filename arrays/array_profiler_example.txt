@@ -1,0 +1,38 @@
+Mon Sep 19 21:28:59 2016    profile_output
+
+         280 function calls in 1.275 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.689    0.689    1.275    1.275 main.py:1(<module>)
+       17    0.256    0.015    0.256    0.015 array_api.py:53(debug_print)
+        6    0.200    0.033    0.216    0.036 array_api.py:116(delete)
+        7    0.109    0.016    0.109    0.016 array_api.py:143(out_of_range)
+        2    0.021    0.010    0.039    0.019 array_api.py:109(get)
+       13    0.000    0.000    0.037    0.003 array_api.py:91(insert)
+        5    0.000    0.000    0.019    0.004 array_api.py:102(set)
+        6    0.000    0.000    0.019    0.003 array_api.py:132(swap)
+       18    0.000    0.000    0.000    0.000 array_api.py:85(add)
+       28    0.000    0.000    0.000    0.000 array_api.py:65(_check_increase)
+       85    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Derek\Anaconda2\lib\csv.py:4(<module>)
+       38    0.000    0.000    0.000    0.000 array_api.py:58(_check_bounds)
+        4    0.000    0.000    0.000    0.000 array_api.py:150(memcpy)
+        1    0.000    0.000    0.000    0.000 {open}
+        1    0.000    0.000    0.000    0.000 array_api.py:41(<module>)
+        5    0.000    0.000    0.000    0.000 array_api.py:146(alloc)
+        5    0.000    0.000    0.000    0.000 array_api.py:75(_check_decrease)
+        2    0.000    0.000    0.000    0.000 {_csv.register_dialect}
+        1    0.000    0.000    0.000    0.000 C:\Users\Derek\Anaconda2\lib\csv.py:73(DictReader)
+        1    0.000    0.000    0.000    0.000 array_api.py:41(Array)
+        1    0.000    0.000    0.000    0.000 array_api.py:46(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Derek\Anaconda2\lib\csv.py:26(Dialect)
+        1    0.000    0.000    0.000    0.000 {_csv.reader}
+        1    0.000    0.000    0.000    0.000 C:\Users\Derek\Anaconda2\lib\csv.py:57(excel)
+        1    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Derek\Anaconda2\lib\csv.py:166(Sniffer)
+        1    0.000    0.000    0.000    0.000 C:\Users\Derek\Anaconda2\lib\csv.py:127(DictWriter)
+        1    0.000    0.000    0.000    0.000 C:\Users\Derek\Anaconda2\lib\csv.py:67(excel_tab)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
